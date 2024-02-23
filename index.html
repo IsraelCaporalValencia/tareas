@@ -1,0 +1,173 @@
+<!DOCTYPE html> <!--indicar el tipo de archivo-->
+<html lang="en"> <!--lenguaje en el que esta la pagina-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--indica que es responsibe que se adapta a cualquie dispositivo-->
+    <title>Pagina web 1</title> 
+</head>
+<body>
+    <h1>Titulo 1</h1> <!--h1 a h2 es para los titulos-->
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+     <p>
+         Parrafo        <!-- parrafos-->
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem excepturi ea nihil quasi facere, modi quo consequuntur consectetur autem unde eveniet obcaecati error iste dolor doloremque atque soluta porro nemo. <!--lorem crea texto aleatorio-->
+     </p>       
+        <!-- etiqueta * numero ejemplo p*10, para que se pongas las veces que quieras -->
+    <!-- a es para poner enlaces/links -->
+    <a href="http://www.google.com.mx/">Abrir google</a>
+    <!-- br salto de linea, espacio -->
+     <br>
+     <!-- hr salto de linea con linea -->
+     <hr>
+<!-- strong letras en negrita -->
+<strong>Letras en negrito</strong>
+<!-- poner titulo con enlace -->
+<a href="http://www.google.com.mx/">
+    <h1>
+        Titulo con enlace
+    </h1>
+</a>
+<!-- otra forma -->
+<h1>
+    <a href="#">
+        titulo con enlace
+    </a>
+</h1>
+<!-- creacion de tablas  table-->
+  <table border="1">
+    <!-- creacion de filas tr -->
+    <tr>
+        <!-- creacion de columnas td -->
+        <td>
+            columna 1
+        </td>
+        <td>
+            columna 2
+        </td>
+        <td>
+            columna 3
+        </td>
+    </tr>
+  
+    <tr>
+        <td>
+            columna 1
+        </td>
+        <td>
+            columna 2
+        </td>
+        <td>
+            columna 3
+        </td>
+    </tr>
+</table>
+<!-- tabla mas estructurada -->
+<table border="3">
+    <!-- encabezados thead -->
+    <thead>
+        <tr>
+            <th>
+                Encabezado 1
+            </th>
+        <th>
+            Encabezado 2
+        </th>
+    </tr>
+    </thead>
+    <!-- contenido tabla tbody-->
+    <tbody>
+        <tr>
+            <td>Contenido columna 1</td>
+            <td>Contenido columna 2</td>
+        </tr>
+    </tbody>
+</table>
+ 
+<!-- listas/ ul listas desordenadas -->
+<!-- li agregar datoss a la lista -->
+<ul>
+   <li>Item 1</li>
+   <li>Item 2</li>
+   <li>Item 3</li>
+   
+</ul>
+<!-- ol lista ordenada -->
+<ol>
+    <li>Item 1</li>
+   <li>Item 2</li>
+   <li>Item 3</li>
+   
+</ol>
+<!-- cuadros/ inputs texto -->
+<h1>cuadros de texto</h1>
+<!-- en el type va el tipo de cuadro de texto -->
+<!-- atributo = " valor" -->
+<!-- placeholder para que indique que debes poner el el cuadro -->
+<input type="text" placeholder="Ingresa tu nombre">
+<!-- salto de linea br -->
+<br>
+<input type="number" placeholder="Ingresa tu edad">
+<br>
+<input type="color"placeholder="Selecciona un color">
+<br>
+<input type="date" placeholder="Selecciona la fecha">
+<br>
+<input type="email" placeholder="Ingresa tu email">
+<br>
+<input type="datetime-local">
+<br>
+<input type="password">
+<br>
+<!-- textarea crea un formulario -->
+<textarea placeholder="Texto largo"></textarea>
+<br>
+<!--lista de opciones para seleccionar  -->
+<!-- disable para deshabilitar las otras opciones -->
+<!-- select disable para que muestre la que esta seleccionada -->
+<select>
+    <option selected disable>Seleciona una opcion</option>
+    <option value="MXN">peso mexicano</option>
+    <option value="USD">Dolar americano</option>
+</select>
+<br>
+<!-- creacion de botones -->
+<button>Boton 1</button>
+<br>
+<!--  -->
+<input type="submit" placeholder="Boton imput">
+<hr>
+<!-- verbos http
+get= devuelve datos,
+post=almacena datos,
+put=Actualiza datos ,
+patch=Actualiza datos,
+Delete=Elimina datos 
+-->
+<!-- formularios -->
+<!-- metodos get/post -->
+<!-- accion indica a donde envia los datos/ruta -->
+<!-- añadir atributo name para que mande los datos -->
+<h1>Formulario</h1>
+<form action="" method="get">
+    <input type="text" placeholder="Nombre" name="nombre">
+    <input type="email" placeholder="Email" name="Email"> 
+    <input type="password" placeholder="Contraseña" name="Contraseña">
+    <input type="submit" placeholder="Enviar">
+</form>
+<!-- abrir otra ventana con enlace -->
+<!-- target blank abre otra pestaña -->
+<a target="_blank" href="Formularios.html">
+    <h1>
+        Ir a Formularios
+    </h1>
+</a>
+
+<!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="css/styles2.css"> -->
+
+</body>
+</html>
